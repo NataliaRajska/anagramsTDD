@@ -1,11 +1,11 @@
-const assert = require('assert');
-describe('Array', function() {
-    describe('#indexOf()', function() {
-        it('should return -1 when the value is not present', function() {
-            assert.equal(-1, [1,2,3].indexOf(4));
-        });
-    });
-});
+// const assert = require('assert');
+// describe('Array', function() {
+//     describe('#indexOf()', function() {
+//         it('should return -1 when the value is not present', function() {
+//             assert.equal(-1, [1,2,3].indexOf(4));
+//         });
+//     });
+// });
 
 
 const assert = require('assert');
@@ -36,12 +36,12 @@ describe('Anagram', ()=>{
     });
 });
 
-function getAnagrams(){
+function getAnagrams(data){
     if(!Array.isArray(data)){
         throw new Error("Bad parameter");
     }
     return[];
-};
+}
 
 const testData = [
     'kinship',
@@ -54,3 +54,5 @@ const testData = [
     'boaters',
     'borates'
 ];
+
+//right test

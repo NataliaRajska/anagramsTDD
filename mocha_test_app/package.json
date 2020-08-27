@@ -1,4 +1,0 @@
-{"scripts": {
-  "test": "mocha --reporter=nyan test.js"
-}
-}

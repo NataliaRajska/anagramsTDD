@@ -1,0 +1,22 @@
+{
+  "name": "anagramstdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaRajska/anagramsTDD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliaRajska/anagramsTDD/issues"
+  },
+  "homepage": "https://github.com/NataliaRajska/anagramsTDD#readme",
+  "dependencies": {
+    "mocha": "^8.1.2"
+  }
+}
